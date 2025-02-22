@@ -8,7 +8,7 @@ export default function Menu({}) {
     
     <button
     className="z-20 right-0 absolute text-xl block sm:hidden mr-6 cursor-pointer focus:outline-none" onClick={() => {setIsOpen(!isOpen)}}>
-    {isOpen ? "x" : "☰"}
+    {isOpen ? <img width="20" height="20" src="https://img.icons8.com/ios-filled/50/FFFFFF/delete-sign--v1.png" alt="delete-sign--v1"/> : "☰"}
   </button>
 
     <nav id="menu"

@@ -8,7 +8,7 @@ export default function DestinationMenu({}) {
     
     <button
     className="z-20 right-0 absolute text-xl block sm:hidden mr-6 cursor-pointer focus:outline-none" onClick={() => {setIsOpen(!isOpen)}}>
-    {isOpen ? "✖" : "☰"}
+    {isOpen ? <p className="md:w-[20px] w-[14px]"><img width="20" height="20" src="https://img.icons8.com/ios-filled/50/FFFFFF/delete-sign--v1.png" alt="delete-sign--v1"/></p> : "☰"}
   </button>
 
     <nav id="menu"
